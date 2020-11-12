@@ -13,7 +13,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="990.0" prefWidth="1800.0" styleClass="fondo" stylesheets="@../resources/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.una.uber.view.ProyectoEstructurasController">
+<BorderPane styleClass="fondo" stylesheets="@../resources/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.una.uber.view.ProyectoEstructurasController">
    <top>
       <VBox alignment="CENTER" prefHeight="82.0" prefWidth="1280.0" BorderPane.alignment="CENTER">
          <children>
@@ -25,298 +25,8 @@
          </children>
       </VBox>
    </top>
-   <center>
-      <VBox alignment="CENTER" prefHeight="473.0" prefWidth="1057.0" BorderPane.alignment="CENTER">
-         <children>
-            <AnchorPane prefHeight="917.0" prefWidth="1292.0">
-               <children>
-                  <ImageView fitHeight="880.0" fitWidth="1138.0" pickOnBounds="true">
-                     <image>
-                        <Image url="@../resources/mapaSanIsidro.png" />
-                     </image>
-                  </ImageView>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="255.0" layoutY="397.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="212.0" layoutY="432.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="158.0" layoutY="474.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="73.0" layoutY="552.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="710.0" layoutY="788.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="650.0" layoutY="582.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="401.0" layoutY="380.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="372.0" layoutY="432.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="313.0" layoutY="414.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="420.0" layoutY="160.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="444.0" layoutY="63.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="522.0" layoutY="6.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="897.0" layoutY="454.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="493.0" layoutY="719.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="803.0" layoutY="561.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="858.0" layoutY="515.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="762.0" layoutY="693.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="830.0" layoutY="569.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="430.0" layoutY="345.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="351.0" layoutY="506.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="323.0" layoutY="552.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="341.0" layoutY="328.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="392.0" layoutY="282.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="411.0" layoutY="193.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="351.0" layoutY="615.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="168.0" layoutY="552.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="411.0" layoutY="524.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="255.0" layoutY="532.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="288.0" layoutY="483.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="730.0" layoutY="265.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="720.0" layoutY="291.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="701.0" layoutY="345.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="669.0" layoutY="397.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="641.0" layoutY="446.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="669.0" layoutY="202.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="641.0" layoutY="265.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="611.0" layoutY="320.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="584.0" layoutY="372.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="464.0" layoutY="624.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="494.0" layoutY="544.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="560.0" layoutY="424.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="532.0" layoutY="483.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="454.0" layoutY="454.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="484.0" layoutY="406.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="474.0" layoutY="210.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="513.0" layoutY="291.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="503.0" layoutY="354.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="679.0" layoutY="524.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="711.0" layoutY="474.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="740.0" layoutY="416.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="570.0" layoutY="492.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="560.0" layoutY="240.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="522.0" layoutY="128.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="632.0" layoutY="160.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="559.0" layoutY="184.0" prefHeight="19.0" prefWidth="20.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
-                     <font>
-                        <Font size="1.0" />
-                     </font>
-                  </JFXButton>
-               </children>
-            </AnchorPane>
-         </children>
-      </VBox>
-   </center>
    <left>
-      <VBox alignment="CENTER" prefHeight="908.0" prefWidth="633.0" spacing="50.0" BorderPane.alignment="CENTER">
+      <VBox alignment="CENTER" spacing="50.0" BorderPane.alignment="CENTER">
          <children>
             <HBox alignment="CENTER" prefHeight="66.0" prefWidth="613.0" spacing="20.0">
                <children>
@@ -354,13 +64,11 @@
                   </HBox>
                   <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
                      <children>
-                        <VBox prefHeight="44.0" prefWidth="61.0" />
                         <JFXButton fx:id="btnInicioRecorrido" onAction="#btnInicioRecorridoOnAction" prefHeight="44.0" prefWidth="188.0" text="Iniciar Recorrido">
                            <font>
                               <Font name="Ebrima Bold" size="20.0" />
                            </font>
                         </JFXButton>
-                        <VBox prefHeight="44.0" prefWidth="75.0" />
                      </children>
                   </HBox>
                </children>
@@ -386,16 +94,295 @@
                </children>
             </VBox>
          </children>
-         <padding>
-            <Insets left="20.0" />
-         </padding>
       </VBox>
    </left>
-   <right>
-      <VBox alignment="TOP_CENTER" prefHeight="690.0" prefWidth="0.0" BorderPane.alignment="TOP_LEFT">
+   <center>
+      <AnchorPane prefHeight="917.0" prefWidth="1292.0" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="lblCondiciones" />
+            <ImageView fitHeight="880.0" fitWidth="1138.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../resources/mapaSanIsidro.png" />
+               </image>
+            </ImageView>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="255.0" layoutY="397.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="212.0" layoutY="432.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="158.0" layoutY="474.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="73.0" layoutY="552.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="710.0" layoutY="788.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="650.0" layoutY="582.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="401.0" layoutY="380.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="372.0" layoutY="432.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="313.0" layoutY="414.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="420.0" layoutY="160.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="444.0" layoutY="63.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="522.0" layoutY="6.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="897.0" layoutY="454.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="493.0" layoutY="719.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="803.0" layoutY="561.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="858.0" layoutY="515.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="762.0" layoutY="693.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="830.0" layoutY="569.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="430.0" layoutY="345.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="351.0" layoutY="506.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="323.0" layoutY="552.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="341.0" layoutY="328.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="392.0" layoutY="282.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="411.0" layoutY="193.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="351.0" layoutY="615.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="168.0" layoutY="552.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="411.0" layoutY="524.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="255.0" layoutY="532.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="288.0" layoutY="483.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="730.0" layoutY="265.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="720.0" layoutY="291.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="701.0" layoutY="345.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="669.0" layoutY="397.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="641.0" layoutY="446.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="669.0" layoutY="202.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="641.0" layoutY="265.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="611.0" layoutY="320.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="584.0" layoutY="372.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="464.0" layoutY="624.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="494.0" layoutY="544.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="560.0" layoutY="424.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="532.0" layoutY="483.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="454.0" layoutY="454.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="484.0" layoutY="406.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="474.0" layoutY="210.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="513.0" layoutY="291.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="503.0" layoutY="354.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="679.0" layoutY="524.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="711.0" layoutY="474.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="740.0" layoutY="416.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="570.0" layoutY="492.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="560.0" layoutY="240.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="522.0" layoutY="128.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="632.0" layoutY="160.0" prefHeight="17.0" prefWidth="19.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="559.0" layoutY="184.0" prefHeight="19.0" prefWidth="20.0" ripplerFill="BLACK" styleClass="vertice" stylesheets="@../resources/style.css" text="Button">
+               <font>
+                  <Font size="1.0" />
+               </font>
+            </JFXButton>
          </children>
-      </VBox>
-   </right>
+         <BorderPane.margin>
+            <Insets right="20.0" />
+         </BorderPane.margin>
+      </AnchorPane>
+   </center>
 </BorderPane>
