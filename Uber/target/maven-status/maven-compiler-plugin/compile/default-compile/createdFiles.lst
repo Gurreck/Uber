@@ -1,4 +1,2 @@
 org\una\uber\App.class
-org\una\uber\PrimaryController.class
-module-info.class
-org\una\uber\SecondaryController.class
+org\una\controller\Controller.class
