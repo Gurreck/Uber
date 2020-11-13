@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package org.una.uber.view;
+package org.una.controller;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
@@ -29,8 +29,6 @@ public class ProyectoEstructurasController implements Initializable {
     private Label lblCostoViaje;
     @FXML
     private JFXButton btnInicioRecorrido;
-    @FXML
-    private Label lblCondiciones;
 
     /**
      * Initializes the controller class.
