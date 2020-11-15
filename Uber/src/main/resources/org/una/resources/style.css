@@ -38,16 +38,12 @@ and open the template in the editor.
   -fx-border-width: 8;
   
 }
-.label
-{
-     -fx-background-image:url('Soko.png');
-}
+
 .jfxBtn{
    
   -fx-background-radius: 70;
   -fx-border-color: #c52222;
   -fx-font-family:"Snap ITC";
-  -fx-background-image:url('Soko.png');
   -fx-font-size: 36px;
   -fx-border-radius: 70;
   -fx-border-width: 8;
@@ -57,7 +53,6 @@ and open the template in the editor.
 {
    -fx-background-radius: 70;
   -fx-font-family:"Snap ITC";
-  -fx-background-image:url('Soko.png');
   -fx-font-size: 36px;
   -fx-border-radius: 70;
   -fx-border-width: 8;
