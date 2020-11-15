@@ -8,11 +8,14 @@ package org.una.controller;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import org.una.uber.Vertice;
 
 /**
  * FXML Controller class
@@ -171,15 +174,15 @@ public class ProyectoEstructurasController implements Initializable {
     private JFXButton btCalle84;
     @FXML
     private JFXButton btnVilla4;
-
+    List<Vertice> vertices=new ArrayList();
     /**
      * Initializes the controller class.
      */
-    
+   
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-       
+       vertices.add(new Vertice(btInter1,btAvCal10,btInter2,null,null,20,40,0,0));
     }    
 
     @FXML
